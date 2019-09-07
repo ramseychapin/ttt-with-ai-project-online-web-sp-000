@@ -40,6 +40,8 @@ class Game
     won? || draw? ? true : false
   end
 
+  
+
 
 
 end
