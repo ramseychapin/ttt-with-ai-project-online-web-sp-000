@@ -33,7 +33,7 @@ class Game
   end
 
   def draw?
-
+    
   end
 
 
