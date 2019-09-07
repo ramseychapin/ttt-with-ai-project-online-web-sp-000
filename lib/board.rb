@@ -23,4 +23,8 @@ class Board
     self.cells[user_input.to_i-1]
   end
 
+  def full?
+
+  end
+
 end
