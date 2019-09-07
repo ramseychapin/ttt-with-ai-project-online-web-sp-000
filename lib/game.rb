@@ -94,10 +94,6 @@ class Game
     elsif draw?
       puts "Cat's Game!"
     end
-  turns = 0
-  while turns < 9
-    turn
-    turns += 1
   end
 
 
