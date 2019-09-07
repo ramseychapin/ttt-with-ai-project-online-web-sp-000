@@ -35,6 +35,8 @@ class Board
     self.cells[position.to_i-1] == "X" || self.cells[position.to_i-1] == "O"
   end
 
-  
+  def valid_move?(position)
+
+  end
 
 end
