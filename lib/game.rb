@@ -51,7 +51,7 @@ class Game
     !won? && @board.full?
     if @board.full? && !won?
       return true
-    elsif !won? && !full? || !won?
+    elsif !won? && !@board.full? || !won?
       return false
     end
   end
