@@ -11,4 +11,8 @@ class Board
     reset!
   end
 
+  def display
+
+  end
+
 end
