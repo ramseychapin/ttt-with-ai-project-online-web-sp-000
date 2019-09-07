@@ -71,7 +71,7 @@ class Game
     return nil
   else
     winning_combination = won?
-    return @board[winning_combination[0]]
+    return @board.cells[winning_combination[0]]
   end
 end
 
