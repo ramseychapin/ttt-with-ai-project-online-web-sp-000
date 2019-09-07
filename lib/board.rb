@@ -8,7 +8,7 @@ class Board
   end
 
   def initialize
-    reset!
+    self.reset!
   end
 
 end
