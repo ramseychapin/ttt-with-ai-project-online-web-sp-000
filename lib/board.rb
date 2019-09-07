@@ -39,7 +39,7 @@ class Board
     user_input.to_i > 0 && user_input.to_i <= 9 && !taken?(user_input)
   end
 
-  def update
+  def update(position, player)
 
   end
 
