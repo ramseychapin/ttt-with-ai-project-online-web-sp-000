@@ -36,6 +36,7 @@ class Board
   end
 
   def valid_move?(user_input)
+    
 
   end
 
