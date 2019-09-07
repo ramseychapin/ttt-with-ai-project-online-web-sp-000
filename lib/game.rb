@@ -48,7 +48,7 @@ class Game
   # end
 
   def draw?
-    !won? && self.board.full?
+    !won? && @board.full?
     if full? && !won?
       return true
     elsif !won? && !full? || !won?
