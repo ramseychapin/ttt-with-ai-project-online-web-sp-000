@@ -76,15 +76,29 @@ class Game
     @board.display
   end
 
+  # def play
+  #   turn until over?
+  #   if won?
+  #     puts "Congratulations #{winner}!"
+  #   elsif draw?
+  #     puts "Cat's Game!"
+  #   end
+  # end
+
   def play
-    turn until over?
+  until over?
+    turn
+  end
     if won?
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
     end
+  turns = 0
+  while turns < 9
+    turn
+    turns += 1
   end
-
 
 
 end
