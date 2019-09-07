@@ -1,5 +1,5 @@
 class game
-
+  attr_accessor 
 
 
 
