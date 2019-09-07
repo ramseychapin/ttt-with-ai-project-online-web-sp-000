@@ -3,5 +3,6 @@ class Board
 
   @cells = []
 
+  
 
 end
