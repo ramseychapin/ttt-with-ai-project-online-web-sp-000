@@ -31,8 +31,8 @@ class Board
     self.cells.count {|cell| cell == "X" || cell == "O"}
   end
 
-  def taken?(index)
-    
+  def taken?(position)
+    !self.cells[postion.to_i-1] == " "
 
   end
 
