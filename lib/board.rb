@@ -27,5 +27,8 @@ class Board
     self.cells.all? {|cell| cell == "X" || cell == "O"}
   end
 
+  def turn_count
+
+  end
 
 end
