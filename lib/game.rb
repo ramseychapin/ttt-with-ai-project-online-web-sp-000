@@ -25,7 +25,7 @@ class Game
 
   def won?
     WIN_COMBINATIONS.each do |winning_combination|
-      if (self.board.cells[winning_combination[0]] == "X" && self.board.cells[winning_combination[1]] == "X" && self.board.cells[winning_combination[2]] == "X" || self.board.cells[winning_combination[0]] == "O" && board.cells[winning_combination[1]] == "O" && @board.cells[winning_combination[2]] == "O")
+      if (self.board.cells[winning_combination[0]] == "X" && self.board.cells[winning_combination[1]] == "X" && self.board.cells[winning_combination[2]] == "X" || self.board.cells[winning_combination[0]] == "O" && self.board.cells[winning_combination[1]] == "O" && self.board.cells[winning_combination[2]] == "O")
         return winning_combination
       end
     end
