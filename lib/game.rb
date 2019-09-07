@@ -20,7 +20,7 @@ class Game
   end
 
   def current_player
-    slef.board.turn_count.even? ? player_1 : player_2
+    self.board.turn_count.even? ? player_1 : player_2
   end
 
   def won?
