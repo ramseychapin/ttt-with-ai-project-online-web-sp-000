@@ -40,7 +40,7 @@ class Board
   end
 
   def update(position, player)
-
+    
   end
 
 end
