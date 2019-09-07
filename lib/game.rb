@@ -36,14 +36,31 @@ class Game
     @board.full? && !won? ? true : false
   end
 
-  def over?
-    won? || draw? ? true : false
+  # def over?
+  #   won? || draw? ? true : false
+  # end
+  #
+  # def winner
+  #   if won?
+  #     combination = won?
+  #     @board.cells[combination[0]] # X or O
+  #   end
+  # end
+
+  def draw?
+    !won? && full?
+    if full? && !won?
+      return true
+    elsif !won? && !full? || !won?
+      return false
+    end
   end
 
-  def winner
-    if won?
-      combination = won?
-      @board.cells[combination[0]] # X or O
+  def over?
+    if draw? || full? || won?
+      return true
+    else
+      return false
     end
   end
 
