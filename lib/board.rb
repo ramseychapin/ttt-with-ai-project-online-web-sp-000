@@ -32,7 +32,7 @@ class Board
   end
 
   def taken?
-
+    
   end
 
 end
