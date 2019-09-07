@@ -66,15 +66,6 @@ class Game
     @board.display
   end
 
-  def winner
-  if !won?
-    return nil
-  else
-    winning_combination = won?
-    return @board[winning_combination[0]]
-  end
-end
-
   def play
   until over?
     turn
