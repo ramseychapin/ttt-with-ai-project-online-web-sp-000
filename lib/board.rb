@@ -32,7 +32,7 @@ class Board
   end
 
   def taken?(position)
-    !self.cells[postion.to_i-1] == " "
+    !self.cells[position.to_i-1] == " "
 
   end
 
