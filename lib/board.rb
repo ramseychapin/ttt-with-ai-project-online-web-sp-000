@@ -20,7 +20,7 @@ class Board
   end
 
   def position(user_input)
-
+    
   end
 
 end
