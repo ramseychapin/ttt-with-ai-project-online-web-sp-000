@@ -24,7 +24,7 @@ class Board
   end
 
   def full?
-
+    
   end
 
 end
