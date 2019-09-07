@@ -37,6 +37,9 @@ class Board
 
   def valid_move?(user_input)
     user_input.to_i > 0 && user_input.to_i <= 9 && !taken?(user_input)
+  end
+
+  def update
 
   end
 
