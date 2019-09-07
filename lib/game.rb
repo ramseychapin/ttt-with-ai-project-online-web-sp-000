@@ -19,6 +19,10 @@ class game
     @board.display
   end
 
+  def current_player
+
+  end
+
 
 
 end
