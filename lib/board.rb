@@ -36,7 +36,7 @@ class Board
   end
 
   def valid_move?(user_input)
-    user_input.to_i-1 > 0 && user.
+    user_input.to_i-1 > 0 && user_input.to_i-1 <= 9 && !taken(user_input.to_i-1)
 
   end
 
