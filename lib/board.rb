@@ -19,4 +19,8 @@ class Board
     puts " #{self.cells[6]} | #{self.cells[7]} | #{self.cells[8]} "
   end
 
+  def position(user_input)
+
+  end
+
 end
