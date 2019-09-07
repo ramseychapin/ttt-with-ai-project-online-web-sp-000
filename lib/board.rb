@@ -24,7 +24,7 @@ class Board
   end
 
   def full?
-    self.cells.all?
+    self.cells.all? {|cell| cell = " "}
   end
 
 
