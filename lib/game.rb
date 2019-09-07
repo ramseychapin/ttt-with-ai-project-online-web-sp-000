@@ -24,7 +24,12 @@ class game
   end
 
   def won?
-
+    WIN_COMBINATIONS.each do |winning_combination|
+      if (@board[winning_combination[0]] == "X" && @board[winning_combination[1]] == "X" && @board[winning_combination[2]] == "X" || @board[winning_combination[0]] == "O" && @board[winning_combination[1]] == "O" && @board[winning_combination[2]] == "O")
+        return winning_combination
+      end
+    end
+    return false
   end
 
 
